@@ -2,7 +2,7 @@ const scores = [];
 let userInput = "";
 let loop = true;
 while (loop=true) {
-    userInput= prompt("What was the student's score?");
+    userInput= prompt("What was the student's score?  Type 'quit' to tabulate grades.");
     scores.push(userInput);
     if (userInput==="quit") {break};
 }
